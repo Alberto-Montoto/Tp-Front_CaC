@@ -1,0 +1,336 @@
+.nav{
+    background-color: rgb(54, 54, 54);
+}
+
+.container-fluid{
+    background-color: rgb(54, 54, 54);
+    
+}
+
+.navbar-brand{
+    color: white;    
+}
+
+.nav-item-1 .nav-link{
+    color: white;
+}
+
+.nav-item-5 .nav-link{
+    color: rgb(82, 252, 73);
+}
+
+header{
+    display: flex;
+    justify-content: end;
+}
+
+.img-fluid{
+    left: 10%;
+}
+
+.imagen-header{
+    display: inline;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute; /* Coloca la capa de oscurecimiento encima de la imagen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color oscuro semitransparente */
+    opacity: 1; /* Ajusta la opacidad según tus preferencias (0 es completamente transparente, 1 es completamente opaco) */
+    pointer-events: none; /* Evita que la capa de oscurecimiento interfiera con los eventos del ratón */
+}
+
+.imagen-header .card1{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 38rem;
+    height: 15rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgba(193, 26, 26, 0); /* Fondo semitransparente */
+    z-index: 1; /* Asegura que la tarjeta esté encima de la imagen de fondo */
+}
+
+
+.card-title{
+    padding-bottom: 10px;
+    color: white;
+}
+
+.card-body{
+    width: 300px; /* Ancho de la tarjeta */
+    z-index: 2; /* Asegura que la tarjeta esté encima del fondo */
+    text-align: right;
+    padding-right: 5px;
+    color: rgb(255, 255, 255);
+    left: 10%;
+}
+
+.botones{
+    display: flex; /* Activa el modelo de caja flexible */
+    justify-content: flex-end; /* Distribuye los elementos con espacio entre ellos */
+    text-decoration-color: white;
+    color: white;
+    z-index: 2;
+}
+
+.btn-1{
+    background-color: rgba(0, 255, 123, 0);
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.btn-2{
+    background-color: rgb(49, 187, 98);
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(49, 187, 98);
+    border-width: 2px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.tituloCardInterno1{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.tituloCardInterno2{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body-1{
+    padding: 25px;
+}
+
+.pynom{
+    display: contents;
+    justify-content: flex-start;
+}
+
+.especial{
+    display: flex;
+    justify-content: left;
+    padding-top: 2px;
+}
+
+.pjava{
+    background-color: gold;
+    text-decoration: black;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: bold;
+    margin-right: 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.preact{
+    background-color: cornflowerblue;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.pnegocios{
+    background-color: grey;
+    color: white;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: bold;
+    margin-right: 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.pstartups{
+    background-color: red;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+  
+
+ 
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo p {
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.titulo p+h3 {
+    text-align: center;
+    margin-top: 1px;
+}
+
+.btn-info {
+    background-color: gray;
+    color: var(--colorenlace);
+    margin-top: 1px;
+    border-style: none;
+}
+
+.custom-button {
+    width: 100px;
+    background-color: rgba(0, 255, 123, 0);
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.card-bsas {
+    margin-top: 30px;
+    background-color: rgb(54, 54, 54);
+}
+
+.image-container {
+    border: 1px solid white;
+}
+
+.informe p {
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.card-body-2{
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px;
+}
+
+.card-text-2{
+    color: white;
+}.prefooter {
+    text-align: center;
+}
+
+span {
+    text-decoration: underline dotted;
+}
+
+#inputNombre {
+    width: 75%;
+}
+
+#inputApellido {
+    width: 75%;
+}
+
+textarea{
+    height: 70px;
+}
+  
+.mensaje p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+    color: gray;
+}
+  
+.btn-success {
+    background-color: yellowgreen;
+    margin-top: 7px;
+}
+
+.btn{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+.container-footer {
+    height: 110px;
+    background-color: rgb(53, 126, 191);
+    display: flex;
+    justify-content: center;
+
+}
+.container-footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer-link{
+    display: flex;
+    justify-self: first baseline;
+    padding-bottom: 20px;
+}
+
+
+
+ @media (max-width: 1100px) {
+    /* Estilos para pantallas pequeñas */
+    .card-body{
+        height: auto;
+        text-align: left;    
+        margin-bottom: 15%; 
+    }
+
+    .card-text{
+        text-align: left;
+    }
+
+    .card1 {
+        text-align: left; /* Alinea el contenido de la tarjeta a la izquierda */
+        width: 30rem;
+    }
+
+    .botones {
+        display: none;
+        justify-content: flex-start; /* Alinea los botones a la izquierda */
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    /* Estilos para pantallas pequeñas */
+    .card-body{
+        display: none;
+    }
+
+    .card-img-top-1{
+        display: none;
+    }
+}
+
+
